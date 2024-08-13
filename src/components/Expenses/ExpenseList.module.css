@@ -1,0 +1,18 @@
+.list_itme{
+    list-style: none;
+    padding: 0px;
+    margin:0px 10px 0px 10px;
+    width: 319px;
+    height:190px;
+    overflow-y: scroll;
+    padding: 5px;
+    margin: 5px auto;
+    box-shadow: inset 0px 0px 1px black;
+
+}
+@media screen and (max-width:320px) {
+    .list_itme{
+        width: 300px;
+    }
+    
+}

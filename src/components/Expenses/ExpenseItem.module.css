@@ -1,0 +1,25 @@
+.card{
+    width: 90%;
+    /* height: 20px; */
+    background-color: rgb(181, 245, 245);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0px;
+    /* padding: 5px; */
+}
+.card button{
+    color: red;
+    border: none;
+    background-color: transparent;
+    font-size: large;    
+}
+.card .name{
+    text-transform: capitalize;
+}
+.card p{
+    margin: 0;
+    padding: 3px;
+}
