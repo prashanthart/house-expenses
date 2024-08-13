@@ -19,6 +19,9 @@ function App() {
       return;
     }
     const jsonRes = await response.json();
+    if(!jsonRes || typeof  jsonRes !=='object'){
+        return;
+    }
     const responseData = Object.entries(jsonRes).map(([key,value])=>{
       return {...value,id:key};
 
